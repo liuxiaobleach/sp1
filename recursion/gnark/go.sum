@@ -2,8 +2,8 @@ github.com/bits-and-blooms/bitset v1.10.0 h1:ePXTeiPEazB5+opbv5fr8umg2R/1NlzgDsy
 github.com/bits-and-blooms/bitset v1.10.0/go.mod h1:7hO7Gc7Pp1vODcmWvKMRA9BNmbv6a/7QIWpPxHddWR8=
 github.com/blang/semver/v4 v4.0.0 h1:1PFHFE6yCCTv8C1TeyNNarDzntLi7wMI5i/pzqYIsAM=
 github.com/blang/semver/v4 v4.0.0/go.mod h1:IbckMUScFkM3pff0VJDNKRiT6TG/YpiHIM2yvyW5YoQ=
-github.com/celer-network/gnark v0.0.0-20240517050057-f9e7e0c45173 h1:22pBLwSXO+AfAj5LvXvziPSS81G8j7AJ47aXNzCvlKs=
-github.com/celer-network/gnark v0.0.0-20240517050057-f9e7e0c45173/go.mod h1:Z5HdCvStSr4HaqVBeycBjwmOp/+5Ov+/aK/WwR/ZqyA=
+github.com/celer-network/gnark v0.0.0-20240517052912-5ad031935dc5 h1:7FR4Y9YdRIgMsaYXp9D32v/nUlvECmUiVJQZlz/3amE=
+github.com/celer-network/gnark v0.0.0-20240517052912-5ad031935dc5/go.mod h1:Z5HdCvStSr4HaqVBeycBjwmOp/+5Ov+/aK/WwR/ZqyA=
 github.com/consensys/bavard v0.1.13 h1:oLhMLOFGTLdlda/kma4VOJazblc7IM5y5QPd2A/YjhQ=
 github.com/consensys/bavard v0.1.13/go.mod h1:9ItSMtA/dXMAiL7BG6bqW2m3NdSEObYWoH223nGHukI=
 github.com/consensys/gnark-crypto v0.12.2-0.20240504013751-564b6f724c3b h1:tu0NaVr64o6vXzy9rYSK/LCZXmS+u/k9eP1F8OtRUWQ=
