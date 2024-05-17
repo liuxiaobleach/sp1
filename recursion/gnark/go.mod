@@ -32,4 +32,4 @@ require (
 	rsc.io/tmplfunc v0.0.3 // indirect
 )
 
-replace github.com/consensys/gnark => github.com/celer-network/gnark v0.0.9-0.20240517033011-c74c1d77b384
+replace github.com/consensys/gnark => github.com/celer-network/gnark v0.0.9-0.20240517034238-7293c1303ceb
