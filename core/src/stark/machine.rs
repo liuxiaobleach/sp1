@@ -281,6 +281,8 @@ impl<SC: StarkGenericConfig, A: MachineAir<Val<SC>>> StarkMachine<SC, A> {
         let shards = tracing::info_span!("shard_record")
             .in_scope(|| self.shard(record, &<A::Record as MachineRecord>::Config::default()));
 
+        println!("shards number:{:?}", shards.len());
+
         tracing::info_span!("prove_shards")
             .in_scope(|| P::prove_shards(self, pk, shards, challenger))
     }
