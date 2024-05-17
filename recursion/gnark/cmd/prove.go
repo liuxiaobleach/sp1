@@ -84,10 +84,12 @@ var proveCmd = &cobra.Command{
 		fmt.Println("start prove in gnark")
 
 		// Generate the proof.
-		proof, err := groth16.Prove(r1cs, pk, witness, backend.WithProverHashToFieldFunction(sha256.New()))
+		proof, err := groth16.Prove(r1cs, pk, witness, backend.WithProverHashToFieldFunction(sha256.New()), backend.WithIcicleAcceleration())
 		if err != nil {
 			panic(err)
 		}
+
+		fmt.Println("end prove in gnark")
 
 		// Verify proof.
 		err = groth16.Verify(proof, vk, publicWitness, backend.WithVerifierHashToFieldFunction(sha256.New()))
