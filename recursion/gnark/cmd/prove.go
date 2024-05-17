@@ -83,6 +83,10 @@ var proveCmd = &cobra.Command{
 
 		fmt.Println("start prove in gnark")
 
+		for i := 0; i < 10; i++ {
+			groth16.Prove(r1cs, pk, witness, backend.WithProverHashToFieldFunction(sha256.New()), backend.WithIcicleAcceleration(), backend.WithMultiGpuSelect([]int{0, 1, 2, 3, 4}))
+		}
+
 		// Generate the proof.
 		proof, err := groth16.Prove(r1cs, pk, witness, backend.WithProverHashToFieldFunction(sha256.New()), backend.WithIcicleAcceleration(), backend.WithMultiGpuSelect([]int{0, 1, 2, 3, 4}))
 		if err != nil {
